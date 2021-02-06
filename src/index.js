@@ -1,7 +1,13 @@
-import React from 'react';
-
-const Component = () => {
-  return <React.Fragment>React-NPM package boilerplate</React.Fragment>
-}
-
-export default Component
+export { default as GenerateColorScheme } from './GenerateColorScheme'
+export { default as getBrandColorName } from './getBrandColorName'
+export { default as getBrighten } from './getBrighten'
+export { default as getColorLightness } from './getColorLightness'
+export { default as getDarken } from './getDarken'
+export { default as getDesaturated } from './getDesaturated'
+export { default as getGreyScale } from './getGreyScale'
+export { default as getSaturated } from './getSaturated'
+export { default as getShades } from './getShades'
+export { default as transformShadesArrToObjWithNames } from './transformShadesArrToObjWithNames'
+export { default as toCSSVars } from './toCSSVars'
+export { default as toFlattenObject } from './toFlattenObject'
+export { default as toJSModule } from './toJSModule'
