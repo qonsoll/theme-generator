@@ -11,3 +11,8 @@ export { default as transformShadesArrToObjWithNames } from './transformShadesAr
 export { default as toCSSVars } from './toCSSVars'
 export { default as toFlattenObject } from './toFlattenObject'
 export { default as toJSModule } from './toJSModule'
+export { default as color } from './vendor/color'
+export { default as copyToClipboard } from './vendor/copyToClipboard'
+export { default as download } from './vendor/download'
+export { default as flattenObject } from './vendor/flattenObject'
+export { default as GoogleFonts } from './vendor/googleFonts.json'

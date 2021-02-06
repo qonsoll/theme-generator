@@ -1,7 +1,7 @@
 {
   "name": "@qonsoll/theme-generator",
   "version": "1.0.1",
-  "description": "Boilerplate for building a react component as NPM package",
+  "description": "Generate theme for your next project",
   "main": "index.js",
   "private": false,
   "scripts": {
