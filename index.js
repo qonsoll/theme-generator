@@ -428,6 +428,36 @@ Object.defineProperty(exports, "toJSModule", {
     return _toJSModule.default;
   }
 });
+Object.defineProperty(exports, "color", {
+  enumerable: true,
+  get: function get() {
+    return _color.default;
+  }
+});
+Object.defineProperty(exports, "copyToClipboard", {
+  enumerable: true,
+  get: function get() {
+    return _copyToClipboard.default;
+  }
+});
+Object.defineProperty(exports, "download", {
+  enumerable: true,
+  get: function get() {
+    return _download.default;
+  }
+});
+Object.defineProperty(exports, "flattenObject", {
+  enumerable: true,
+  get: function get() {
+    return _flattenObject.default;
+  }
+});
+Object.defineProperty(exports, "GoogleFonts", {
+  enumerable: true,
+  get: function get() {
+    return _googleFonts.default;
+  }
+});
 
 var _GenerateColorScheme = _interopRequireDefault(require("./GenerateColorScheme"));
 
@@ -454,6 +484,16 @@ var _toCSSVars = _interopRequireDefault(require("./toCSSVars"));
 var _toFlattenObject = _interopRequireDefault(require("./toFlattenObject"));
 
 var _toJSModule = _interopRequireDefault(require("./toJSModule"));
+
+var _color = _interopRequireDefault(require("./vendor/color"));
+
+var _copyToClipboard = _interopRequireDefault(require("./vendor/copyToClipboard"));
+
+var _download = _interopRequireDefault(require("./vendor/download"));
+
+var _flattenObject = _interopRequireDefault(require("./vendor/flattenObject"));
+
+var _googleFonts = _interopRequireDefault(require("./vendor/googleFonts.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 "use strict";
