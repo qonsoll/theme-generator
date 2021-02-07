@@ -1,6 +1,6 @@
 {
   "name": "@qonsoll/theme-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate theme for your next project",
   "main": "index.js",
   "private": false,
