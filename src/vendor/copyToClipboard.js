@@ -1,4 +1,4 @@
-const copyToClipboard = (data) => {
+const copyToClipboard = data => {
   window.navigator.clipboard.writeText(data)
 }
 

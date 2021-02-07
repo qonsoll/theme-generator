@@ -60,5 +60,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "chroma-js": "^2.1.0",
+    "color": "^3.1.3"
   }
 }
